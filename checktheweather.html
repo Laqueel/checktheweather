@@ -11,9 +11,18 @@
     
 <script>
 var temperature = 61;
+let weather = Math.floor(Math.random() * 2); 
+
+if (weather == 0) {
+    temperature = 50;
+}
+
+else {
+    temperature = 90;
+}
 
 if (temperature <= 51) {
-console.log ("Hey, it is below 51 degrees. So grab your coding book and those pages!") 
+console.log ("Hey, it is below 51 degrees. So grab your coding book and turn those pages!") 
 }
 
 else {
